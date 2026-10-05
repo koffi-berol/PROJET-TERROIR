@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+
+/* Menu de nanigation  */
+
+.navbar {
+    background-color: #31572c;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: #ffd43b;
+}
+
+
+/* Section hero */
+
+.hero-section {
+    height: 90vh;
+    background-image: url("https://tse2.mm.bing.net/th/id/OIP.boFf8uCi-WkOXKhzM32iEwHaE7?r=0&rs=1&pid=ImgDetMain&o=7&rm=3");
+    background-size: cover;
+    background-position: center;
+}
+
+.text-hero-section {
+    text-align: center;
+    max-width: 700px;
+    padding: 20px;
+}
+
+.text-hero-section h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.text-hero-section p {
+    font-size: 18px;
+}
+
+
+/* Menu section */
+
+section {
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+h2 {
+    color: #31572c;
+    font-weight: bold;
+}
+
+
+/* carte  */
+
+.carte {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.carte:hover {
+    transform: translateY(-5px);
+}
+
+/* Bouton */
+
+.btn-primary {
+    background-color: #31572c;
+    border-color: #31572c;
+}
+
+.btn-primary:hover {
+    background-color: #4f772d;
+    border-color: #4f772d;
+}
+
+
+/* accordion bouton */
+
+.accordion-button {
+    font-weight: bold;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #ecf39e;
+    color: #31572c;
+}
+
+
+/* contact */
+
+form {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.form-control,
+.form-select {
+    border-radius: 5px;
+}
+
+
+/* pied de page */
+
+footer {
+    height: 80px;
+    background-color: #31572c;
+    p{  
+        padding: 25px;
+        color: white;
+        display: flex;
+        justify-content: center;
+    }
+}
+
